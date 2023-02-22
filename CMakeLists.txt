@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.20)
-project(cmake_example VERSION 1.0 LANGUAGE C)
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_C_STANDARD_REQUIRED True)
-add_compile_options(-Wall _Wextra -Werror -pendantic -00)
-add_executable(cmake_example_exec data.c)
