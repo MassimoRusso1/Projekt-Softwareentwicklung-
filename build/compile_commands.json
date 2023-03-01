@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/massi/Documents/Labor_Informatik/Projekt-Softwareentwicklung-/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -Wall -o CMakeFiles\\test_exec.dir\\test.c.obj -c C:\\Users\\massi\\Documents\\Labor_Informatik\\Projekt-Softwareentwicklung-\\test.c",
-  "file": "C:/Users/massi/Documents/Labor_Informatik/Projekt-Softwareentwicklung-/test.c",
-  "output": "CMakeFiles/test_exec.dir/test.c.obj"
-}
-]
