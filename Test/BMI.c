@@ -1,6 +1,6 @@
-#include<stdio.h>  
-int main()  
-{  
+ #include<stdio.h>
+ int main()  
+{
     float height, weight, bmi;  
   
     printf("Enter height in meter\n");  
