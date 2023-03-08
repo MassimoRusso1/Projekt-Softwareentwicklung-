@@ -1,2 +1,0 @@
-Das ist das Repository für den Programmentwurf in Labor Softwareentwicklung 1 -
-und für die im Unterricht durchgeführten Übungen.
