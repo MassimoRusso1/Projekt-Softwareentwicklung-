@@ -12,7 +12,7 @@ set(CMAKE_C_STANDARD_REQUIRED True)
 add_compile_options(-Wall -Wextra -Werror -pedantic -O0)
 
 #add libary
-add_library(master developer.c developer_group.c)
+add_library(master SHARED developer.c developer_group.c)
 
 #add executable
 add_executable(master_exec main.c)
