@@ -12,7 +12,7 @@ set(CMAKE_C_STANDARD_REQUIRED True)
 add_library(master SHARED developer.c developer_group.c)
 
 #add executable
-add_executable(master_exec main.c
+add_executable(master_exec main.c)
 
 #add directory
 add_subdirectory(src)
