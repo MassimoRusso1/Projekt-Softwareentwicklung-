@@ -1,2 +1,0 @@
-C:/Users/massi/Desktop/UNI/Programm/build/CMakeFiles/edit_cache.dir
-C:/Users/massi/Desktop/UNI/Programm/build/CMakeFiles/rebuild_cache.dir
