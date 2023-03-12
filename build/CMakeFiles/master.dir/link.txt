@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libmaster.a CMakeFiles/master.dir/developer.c.obj CMakeFiles/master.dir/developer_group.c.obj
+C:\MinGW\bin\ranlib.exe libmaster.a
