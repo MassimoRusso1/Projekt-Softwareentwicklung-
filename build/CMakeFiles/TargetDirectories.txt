@@ -1,0 +1,4 @@
+/workspaces/Projekt-Softwareentwicklung-/build/CMakeFiles/master_work.dir
+/workspaces/Projekt-Softwareentwicklung-/build/CMakeFiles/master.dir
+/workspaces/Projekt-Softwareentwicklung-/build/CMakeFiles/edit_cache.dir
+/workspaces/Projekt-Softwareentwicklung-/build/CMakeFiles/rebuild_cache.dir

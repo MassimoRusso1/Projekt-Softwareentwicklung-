@@ -1,0 +1,1 @@
+/usr/bin/clang -fPIC -shared -Wl,-soname,libmaster_work.so -o libmaster_work.so CMakeFiles/master_work.dir/developer.c.o CMakeFiles/master_work.dir/developer_group.c.o 
