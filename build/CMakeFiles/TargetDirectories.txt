@@ -1,4 +1,0 @@
-C:/Users/massi/Documents/Labor_Informatik/Projekt-Softwareentwicklung-/build/CMakeFiles/master.dir
-C:/Users/massi/Documents/Labor_Informatik/Projekt-Softwareentwicklung-/build/CMakeFiles/master_exec.dir
-C:/Users/massi/Documents/Labor_Informatik/Projekt-Softwareentwicklung-/build/CMakeFiles/edit_cache.dir
-C:/Users/massi/Documents/Labor_Informatik/Projekt-Softwareentwicklung-/build/CMakeFiles/rebuild_cache.dir
