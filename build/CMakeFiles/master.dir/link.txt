@@ -1,1 +1,0 @@
-/usr/bin/clang CMakeFiles/master.dir/main.c.o -o master 

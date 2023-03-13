@@ -16,12 +16,10 @@ printf("Enter your selection: ");
 
     scanf("%d", &input);
 
-    
-    
     switch(input){
 
     case 1:
-        printf("Eine 1 wurde gedrückt");
+        printf("Developers:");
     break;
 
     case 2:

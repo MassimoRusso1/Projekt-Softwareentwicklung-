@@ -9,7 +9,7 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED True)
 
 #add libary
-add_library(master_work SHARED developer.c developer_group.c)
+add_library(master_work SHARED 2_src/developer.c 2_src/developer_group.c)
 
 #add executable
-add_executable(master main.c)
+add_executable(master 2_src/main.c)
