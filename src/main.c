@@ -24,6 +24,7 @@ printf("Enter your selection: ");
 
     case 1:
         printf("The Developers of this Programm are:");
+        printf("%d\n",developer);
     break;
 
     case 2:
