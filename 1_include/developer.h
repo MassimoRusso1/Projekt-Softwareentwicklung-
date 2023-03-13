@@ -5,12 +5,9 @@
 
 typedef struct 
 {
-    char name1[NAME_LENGTH];          
-    char alias1[NAME_LENGTH];
-
-    char name2[NAME_LENGTH];          
-    char alias2[NAME_LENGTH];
+    char name[NAME_LENGTH];          
+    char alias[NAME_LENGTH];
 }developer;
-void developer_init(developer1 *const d1, const char name1[]);
-void developer_init(developer2 *const d2, const char name2[]);
+void name_init(developer *const d, const char name[]);
+void alias_init(developer *const a, const char alias[]);
 #endif

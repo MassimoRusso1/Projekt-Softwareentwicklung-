@@ -2,44 +2,17 @@
 #include<stdlib.h>
 #include<string.h>
 
-int input=0;
-
-int main(void)
+int main()
 {
-while(1){
-printf("\033[4;92m========================\n");
-printf("Choose your action: \n");
-printf("List Developers \t[1]\n");
-printf("Print Group Logo \t[2]\n");
-printf("Print Group \t\t[3]\n");
-printf("Exit \t\t\t[4]\n");
-printf("========================\033[0m\n");
-printf("Enter your selection: ");
+    int d1, d2;
 
-    scanf("%d", &input);
+    name_init(&d1, "Massimo Russo");
+    name_init(&d2, "Nico Rast");
 
-    switch(input){
+    int a1, a2
 
-    case 1:
-        printf("The Developers of this Programm are:");
-    break;
+    alias_init(&a1, "MassimoRusso1");
+    alias_init(&a2, "tsarocin");
 
-    case 2:
-        printf("Here is our amazing Group Logo:");
-    break;
-
-    case 3:
-        printf("This is our group:");
-    break;
-
-    case 4:
-     return 0;   
-    break;
     
-    default:
-        printf("That was not a valid input!");
-    break;
-    }
-   }
-  return 0;
 }
