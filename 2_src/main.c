@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include<stdlib.h>
+#include<string.h>
 
 int input=0;
 
@@ -19,15 +21,15 @@ printf("Enter your selection: ");
     switch(input){
 
     case 1:
-        printf("Developers:");
+        printf("The Developers of this Programm are:");
     break;
 
     case 2:
-        printf("Eine 2 wurde gedrückt");
+        printf("Here is our amazing Group Logo:");
     break;
 
     case 3:
-        printf("Eine 3 wurde gedrückt");
+        printf("This is our group:");
     break;
 
     case 4:
