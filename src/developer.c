@@ -3,18 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void name_init(developer *const d, const char name[]){
-    int d1;
-    int d2;
-
-    name_init(&d1, "Massimo Russo");
-    name_init(&d2, "Nico Rast");
-}
-void alias_init(developer *const a, const char alias[]){
-    int a1, a2;
-
-    alias_init(&a1, "MassimoRusso1");
-    alias_init(&a2, "tsarocin");
-
-    
+void name_init(developer *const d, const char name[], const char alias[]){
+  strncpy(d->name, name, strlen(name) + 1);
+  strncpy(d->alias, alias, strlen(alias)+1);
 }

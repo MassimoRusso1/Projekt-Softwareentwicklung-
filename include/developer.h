@@ -8,6 +8,5 @@ typedef struct
     char name[NAME_LENGTH];          
     char alias[NAME_LENGTH];
 }developer;
-void name_init(developer *const d, const char name[]);
-void alias_init(developer *const a, const char alias[]);
+void name_init(developer *const d, const char name[], const char alias[]);
 #endif
