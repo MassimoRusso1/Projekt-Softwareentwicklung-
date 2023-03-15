@@ -23,19 +23,23 @@ printf("Enter your selection: ");
     switch(input){
 
     case 1:
-        printf("The Developers of this Programm are:");
-        developer Massimo, Nico;
-        name_init(&Massimo,"Massimo Russo","MassimoRusso1");
-        printf("%s\n",Massimo.name);
-        printf("%s\n",Massimo.alias);
-        name_init(&Nico, "Nico Rast","tsarocin");
-        printf("%s\n",Nico.name);
-        printf("%s\n",Nico.alias);
-
+        printf("The Developers of this Programm are:\n");
+        developer massimo, nico;
+        name_init(&massimo,"Massimo Russo","MassimoRusso1");
+        name_init(&nico, "Nico Rast","tsarocin");
+        printf("Our real Names are:\n");
+        printf("%s\n",massimo.name);
+        printf("%s\n",nico.name);
+        printf("Our nicknames are:\n");
+        printf("%s\n",massimo.alias);
+        printf("%s\n",nico.alias);
     break;
 
     case 2:
         printf("Here is our amazing Group Logo:");
+        developer_group logo;
+        logo_init(&logo,"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        printf("%s",logo.logo);
     break;
 
     case 3:

@@ -1,17 +1,17 @@
 [
 {
   "directory": "/workspaces/Projekt-Softwareentwicklung-/build",
-  "command": "/usr/bin/clang -I/workspaces/Projekt-Softwareentwicklung-/include -g -Wall -Wextra -Werror -pedantic -O0 -std=gnu11 -o CMakeFiles/program.dir/src/main.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/main.c",
+  "command": "/usr/bin/gcc -I/workspaces/Projekt-Softwareentwicklung-/include -g -Wall -Wextra -Werror -pedantic -O0 -std=gnu11 -o CMakeFiles/program.dir/src/main.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/main.c",
   "file": "/workspaces/Projekt-Softwareentwicklung-/src/main.c"
 },
 {
   "directory": "/workspaces/Projekt-Softwareentwicklung-/build",
-  "command": "/usr/bin/clang -I/workspaces/Projekt-Softwareentwicklung-/include -g -Wall -Wextra -Werror -pedantic -O0 -std=gnu11 -o CMakeFiles/program.dir/src/developer.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/developer.c",
+  "command": "/usr/bin/gcc -I/workspaces/Projekt-Softwareentwicklung-/include -g -Wall -Wextra -Werror -pedantic -O0 -std=gnu11 -o CMakeFiles/program.dir/src/developer.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/developer.c",
   "file": "/workspaces/Projekt-Softwareentwicklung-/src/developer.c"
 },
 {
   "directory": "/workspaces/Projekt-Softwareentwicklung-/build",
-  "command": "/usr/bin/clang -I/workspaces/Projekt-Softwareentwicklung-/include -g -Wall -Wextra -Werror -pedantic -O0 -std=gnu11 -o CMakeFiles/program.dir/src/developer_group.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/developer_group.c",
+  "command": "/usr/bin/gcc -I/workspaces/Projekt-Softwareentwicklung-/include -g -Wall -Wextra -Werror -pedantic -O0 -std=gnu11 -o CMakeFiles/program.dir/src/developer_group.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/developer_group.c",
   "file": "/workspaces/Projekt-Softwareentwicklung-/src/developer_group.c"
 }
 ]
