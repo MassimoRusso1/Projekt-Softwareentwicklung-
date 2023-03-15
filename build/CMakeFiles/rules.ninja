@@ -7,25 +7,25 @@
 
 # =============================================================================
 # Project: program
-# Configurations: Debug
+# Configurations: 
 # =============================================================================
 # =============================================================================
 
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__program_Debug
+rule C_COMPILER__program_
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/clang $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__program_Debug
-  command = $PRE_LINK && /usr/bin/clang $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+rule C_EXECUTABLE_LINKER__program_
+  command = $PRE_LINK && /usr/bin/gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
