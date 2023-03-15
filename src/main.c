@@ -25,8 +25,13 @@ printf("Enter your selection: ");
     case 1:
         printf("The Developers of this Programm are:");
         developer Massimo, Nico;
-        name_init(&Massimo,"MassimoRusso","MassimoRusso1");
-        printf("%s\n",Massimo.name, Massimo.alias);
+        name_init(&Massimo,"Massimo Russo","MassimoRusso1");
+        printf("%s\n",Massimo.name);
+        printf("%s\n",Massimo.alias);
+        name_init(&Nico, "Nico Rast","tsarocin");
+        printf("%s\n",Nico.name);
+        printf("%s\n",Nico.alias);
+
     break;
 
     case 2:
