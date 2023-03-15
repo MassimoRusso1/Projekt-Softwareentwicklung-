@@ -27,10 +27,11 @@ printf("Enter your selection: ");
     switch(input){
 
     case 1:
-        printf("The Developers of this Programm are:");
+        printf("The Developers of this Programm are:\n");
         developer Massimo, Nico;
-        name_init(&Massimo,"MassimoRusso","MassimoRusso1");
-        printf("%s\n",Massimo.name, Massimo.alias);
+        name_init(&Massimo,"Massimo
+        Russo","MassimoRusso1");
+        printf("%s\n", Massimo.name);
     break;
 
     case 2:
