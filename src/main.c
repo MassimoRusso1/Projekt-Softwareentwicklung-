@@ -38,8 +38,9 @@ printf("Enter your selection: ");
     case 2:
         printf("Here is our amazing Group Logo:");
         developer_group logo;
-        logo_init(&logo,"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        logo_init(&logo,"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
         printf("%s",logo.logo);
+        
     break;
 
     case 3:
