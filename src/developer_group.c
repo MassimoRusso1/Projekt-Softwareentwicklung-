@@ -3,6 +3,26 @@
 #include <stdlib.h>
 #include <string.h>
 
-void logo_init(developer_group *const l, const char logo[]){
-  strncpy(l->logo, logo, strlen(logo) + 1);
+void logo_print(developer_group *logo_ptr)
+{
+  if(logo_ptr == NULL){
+    printf("\033[4;33mdeveloper_group init: invalid data\n\033[0m");
+  }
+  else{
+    printf("%s\n\n", &logo_ptr ->logo);
+    printf("\n");
+  }
+}
+void group_print(developer_group *developer_ptr){
+  if (developer_ptr == NULL)
+  {
+    printf("033[4;33mdeveloper_group init: invalid data\n\033[0m");
+  }
+  else
+  {
+    logo_print(developer_ptr);
+    name_print(developer_ptr->d);
+
+  }
+  
 }
