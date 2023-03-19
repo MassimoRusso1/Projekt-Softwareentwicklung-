@@ -24,5 +24,8 @@ void group_print(developer_group *developer_ptr){
     name_print(developer_ptr->d);
 
   }
-  
+    printf("-----------------------\n\n This is our group:\n");
+  logo_print(developer_ptr);
+  name_print(developer_ptr->d);
+  printf("-----------------------\n");
 }
