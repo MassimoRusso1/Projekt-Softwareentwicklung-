@@ -17,7 +17,7 @@ void group_init(developer_group *const d, char dev1[],char dev1_alias[],char dev
 }
 void group_print(developer_group *const d)
 {
-  printf("************************\n Name: %s\n Alias: %s\n \n Name: %s\n Alias: %s\n************************", d ->list[0].name, d->list[0].alias,d ->list[1].name, d->list[1].alias);
+  printf("************************\n Name: %s\n Alias: %s\n \n Name: %s\n Alias: %s\n************************\n", d ->list[0].name, d->list[0].alias,d ->list[1].name, d->list[1].alias);
 }
 void logo_print(developer_group *d){
   if(d == NULL)
