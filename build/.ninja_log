@@ -1,9 +1,19 @@
 # ninja log v5
-1	888	1679319633388055370	CMakeFiles/program.dir/src/developer.c.o	95d1a7a7ca1848c
-1	888	1679319633388055370	CMakeFiles/program.dir/src/main.c.o	f281e4dc8fb69393
-888	1089	1679319633588058470	program	705164d8dd036d5f
-1	888	1679319633388055370	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
-1	53	1679321489111173974	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
-1	55	1679321489115174031	CMakeFiles/program.dir/src/main.c.o	f281e4dc8fb69393
 1	57	1679321489115174031	CMakeFiles/program.dir/src/developer.c.o	95d1a7a7ca1848c
+1	55	1679321489115174031	CMakeFiles/program.dir/src/main.c.o	f281e4dc8fb69393
 57	91	1679321489147174492	program	705164d8dd036d5f
+1	53	1679321489111173974	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
+0	373	1679345893082133821	CMakeFiles/program.dir/src/main.c.o	f281e4dc8fb69393
+0	375	1679345893082133821	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
+0	382	1679345893090134012	CMakeFiles/program.dir/src/developer.c.o	95d1a7a7ca1848c
+382	596	1679345893306139166	program	705164d8dd036d5f
+1	35	1679346420554638744	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
+35	60	1679346420578639304	program	705164d8dd036d5f
+1	31	1679346451759377246	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
+31	51	1679346451779377724	program	705164d8dd036d5f
+0	34	1679347163096263171	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
+34	57	1679347163120263744	program	705164d8dd036d5f
+0	34	1679347361784940375	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
+34	53	1679347361804940838	program	705164d8dd036d5f
+1	33	1679347393881687670	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
+33	55	1679347393901688138	program	705164d8dd036d5f

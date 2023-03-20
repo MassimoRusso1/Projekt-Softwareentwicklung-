@@ -3,10 +3,18 @@
 #include <stdlib.h>
 #include <string.h>
 
+//define a struct named grouplogo as a string
 developer_group grouplogo = {.logo = {
-                                 "++++++++++++++++++++++++++++++++\n"
-                                 "++++++++++++++++++++++++++++++++\n"
-                                 "\0"}};
+"\n"
+"88**Yb  dP*Yb  .dP*Y8 .dP*Y8\n"
+"88__dP dP   Yb `Ybo.* `Ybo.* \n"
+"88**Yb Yb   dP o.`Y8b o.`Y8b\n"
+"88oodP  YbodP  8bodP' 8bodP'\n"
+"\0"}};
+
+//defines a function called "group_init" that initializes our team and takes parameters as pointer to developer group and four strings containing the names and aliases. 
+//It also copies names and alias to a developer list.
+
 void group_init(developer_group *const d, char dev1[], char dev1_alias[], char dev2[], char dev2_alias[])
 {
   strncpy(d->list[0].name, dev1, strlen(dev1) + 1);
