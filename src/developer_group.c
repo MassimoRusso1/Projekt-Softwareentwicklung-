@@ -3,29 +3,23 @@
 #include <stdlib.h>
 #include <string.h>
 
-void logo_print(developer_group *logo_ptr)
+developer_group grouplogo = { .logo = {
+  "++++++++++++++++++++++++++++++++\n"
+  "++++++++++++++++++++++++++++++++\n"
+  "\0"
+}};
+void group_init(developer_group *const d, char dev1[],char dev1_alias[],char dev2[], char dev2_alias[])
 {
-  if(logo_ptr == NULL){
-    printf("\033[4;33mdeveloper_group init: invalid data\n\033[0m");
-  }
-  else{
-    printf("%s\n\n", &logo_ptr ->logo);
-    printf("\n");
-  }
+  strncpy(d->list[0].name, dev1, strlen(dev1)+1);
+  strncpy(d->list[0].alias, dev1, strlen(dev1_alias)+1);
+  strncpy(d->list[1].name, dev2, strlen(dev2)+1);
+  strncpy(d->list[1].alias, dev2, strlen(dev2_alias)+1);
 }
-void group_print(developer_group *developer_ptr){
-  if (developer_ptr == NULL)
-  {
-    printf("033[4;33mdeveloper_group init: invalid data\n\033[0m");
-  }
-  else
-  {
-    logo_print(developer_ptr);
-    name_print(developer_ptr->d);
-
-  }
-    printf("-----------------------\n\n This is our group:\n");
-  logo_print(developer_ptr);
-  name_print(developer_ptr->d);
-  printf("-----------------------\n");
+void group_print(developer_group *const d)
+{
+  printf("************************\n Name: %s\n Alias: %s\n \n Name: %s\n Alias: %s\n************************", d ->list[0].name, d->list[0].alias,d ->list[1].name, d->list[1].alias);
+}
+void logo_print(developer_group *d)
+{
+  printf("%s\n, grouplogo.logo");
 }
