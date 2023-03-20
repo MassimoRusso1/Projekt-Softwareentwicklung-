@@ -7,3 +7,6 @@
 1	399	1679315537211769706	CMakeFiles/program.dir/src/developer.c.o	95d1a7a7ca1848c
 4	400	1679315537211769706	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
 400	650	1679315537463771820	program	705164d8dd036d5f
+0	45	1679315758777708910	CMakeFiles/program.dir/src/main.c.o	f281e4dc8fb69393
+1	46	1679315758777708910	CMakeFiles/program.dir/src/developer.c.o	95d1a7a7ca1848c
+46	67	1679315758797709085	program	705164d8dd036d5f
