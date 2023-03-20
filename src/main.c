@@ -34,6 +34,7 @@ printf("Enter your selection: ");
     break;
 
     case 2:
+        printf("This is our Logo:\n");
         developer_group logo;
         group_print(&logo);
 
@@ -41,6 +42,7 @@ printf("Enter your selection: ");
     break;
 
     case 3:
+        printf("This is our group:\n");
        developer_group gr;
        group_init(&gr, "Massimo Russo","MassimoRusso1","Nico Rast","tsarocin");
        logo_print(&logo);
