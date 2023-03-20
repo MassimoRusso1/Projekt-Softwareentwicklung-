@@ -13,5 +13,5 @@ void name_init(developer * const d, char name[], char alias[])
 //This function prints the information from the "developer" structure to the screen. A pointer to a developer object is passed. 
 void name_print(developer *const d)
 {
-    printf("**********************\n name: %s\n alias: %s\n **********************", d->name.name, d->alias);
+    printf("**********************\n name: %s\n alias: %s\n **********************", d->name, d->alias);
 }
