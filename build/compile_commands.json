@@ -1,17 +1,20 @@
 [
 {
   "directory": "/workspaces/Projekt-Softwareentwicklung-/build",
-  "command": "/usr/bin/gcc -I/workspaces/Projekt-Softwareentwicklung-/include -g -Wall -Wextra -Werror -pedantic -O0 -std=gnu11 -o CMakeFiles/program.dir/src/main.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/main.c",
-  "file": "/workspaces/Projekt-Softwareentwicklung-/src/main.c"
+  "command": "/usr/bin/gcc -I/workspaces/Projekt-Softwareentwicklung-/include -g -std=gnu11 -Wall -Wextra -Werror -pedantic -O0 -o CMakeFiles/program.dir/src/main.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/main.c",
+  "file": "/workspaces/Projekt-Softwareentwicklung-/src/main.c",
+  "output": "CMakeFiles/program.dir/src/main.c.o"
 },
 {
   "directory": "/workspaces/Projekt-Softwareentwicklung-/build",
-  "command": "/usr/bin/gcc -I/workspaces/Projekt-Softwareentwicklung-/include -g -Wall -Wextra -Werror -pedantic -O0 -std=gnu11 -o CMakeFiles/program.dir/src/developer.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/developer.c",
-  "file": "/workspaces/Projekt-Softwareentwicklung-/src/developer.c"
+  "command": "/usr/bin/gcc -I/workspaces/Projekt-Softwareentwicklung-/include -g -std=gnu11 -Wall -Wextra -Werror -pedantic -O0 -o CMakeFiles/program.dir/src/developer.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/developer.c",
+  "file": "/workspaces/Projekt-Softwareentwicklung-/src/developer.c",
+  "output": "CMakeFiles/program.dir/src/developer.c.o"
 },
 {
   "directory": "/workspaces/Projekt-Softwareentwicklung-/build",
-  "command": "/usr/bin/gcc -I/workspaces/Projekt-Softwareentwicklung-/include -g -Wall -Wextra -Werror -pedantic -O0 -std=gnu11 -o CMakeFiles/program.dir/src/developer_group.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/developer_group.c",
-  "file": "/workspaces/Projekt-Softwareentwicklung-/src/developer_group.c"
+  "command": "/usr/bin/gcc -I/workspaces/Projekt-Softwareentwicklung-/include -g -std=gnu11 -Wall -Wextra -Werror -pedantic -O0 -o CMakeFiles/program.dir/src/developer_group.c.o -c /workspaces/Projekt-Softwareentwicklung-/src/developer_group.c",
+  "file": "/workspaces/Projekt-Softwareentwicklung-/src/developer_group.c",
+  "output": "CMakeFiles/program.dir/src/developer_group.c.o"
 }
 ]

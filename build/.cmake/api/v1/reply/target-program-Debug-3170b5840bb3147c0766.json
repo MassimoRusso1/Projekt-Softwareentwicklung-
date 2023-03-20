@@ -49,7 +49,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -std=gnu11"
 				},
 				{
 					"backtrace" : 2,
@@ -70,9 +70,6 @@
 				{
 					"backtrace" : 2,
 					"fragment" : "-O0"
-				},
-				{
-					"fragment" : "-std=gnu11"
 				}
 			],
 			"includes" : 
