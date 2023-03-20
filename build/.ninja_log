@@ -1,3 +1,5 @@
 # ninja log v5
 1	270	1678903198430447911	CMakeFiles/program.dir/src/developer.c.o	15fcc8589961547
 0	37	1678903400786466186	CMakeFiles/program.dir/src/developer_group.c.o	4fa8c2455461a6a4
+0	214	1679311697131175301	CMakeFiles/program.dir/src/developer.c.o	95d1a7a7ca1848c
+0	29	1679312085652823286	CMakeFiles/program.dir/src/main.c.o	f281e4dc8fb69393
