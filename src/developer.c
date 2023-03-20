@@ -14,7 +14,7 @@ void name_init(developer * const d, char name[], char alias[])
 void name_print(developer *const d)
 {
     if(d == NULL){
-        
+
         printf("invalid value\n");
     }
     else
@@ -22,4 +22,4 @@ void name_print(developer *const d)
     printf("\033[0:36m");
     printf("**********************\n name: %s\n alias: %s\n **********************", d->name, d->alias);
     printf("\033[0m");
-}
+}}

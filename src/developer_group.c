@@ -19,7 +19,15 @@ void group_print(developer_group *const d)
 {
   printf("************************\n Name: %s\n Alias: %s\n \n Name: %s\n Alias: %s\n************************", d ->list[0].name, d->list[0].alias,d ->list[1].name, d->list[1].alias);
 }
-void logo_print(developer_group *d)
-{
+void logo_print(developer_group *d){
+  if(d == NULL)
+  {
+  printf("invalid value\n");
+  }
+  else
+  {
+  printf("\033[0:36m");
   printf("%s\n", grouplogo.logo);
+  printf("\033[0m");
+}
 }
