@@ -36,7 +36,7 @@ printf("Enter your selection: ");
     case 2:
         printf("This is our Logo:\n");
         developer_group logo;
-        group_print(&logo);
+        logo_print(&logo);
 
         
     break;

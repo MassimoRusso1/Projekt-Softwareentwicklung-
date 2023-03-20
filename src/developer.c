@@ -20,6 +20,6 @@ void name_print(developer *const d)
     else
     {
     printf("\033[0:36m");
-    printf("**********************\n name: %s\n alias: %s\n **********************", d->name, d->alias);
+    printf("**********************\n name: %s\n alias: %s\n **********************\n", d->name, d->alias);
     printf("\033[0m");
 }}
