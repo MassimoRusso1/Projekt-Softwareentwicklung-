@@ -7,9 +7,9 @@
 typedef struct 
 {
     char logo[NAME_LENGTH]; 
-    developer d[2];         
+    developer list[2];         
 }developer_group;
-void group_init(developer_group *, const char *logo,const developer *d);
-void developer_print(developer_group *);
-void logo_print(developer_group *);
+void group_init(developer_group *const d, char name1[],char alias1[], char name2[], char alias2[]);
+void group_print(developer_group *const d);
+void logo_print(developer_group *const d);
 #endif
