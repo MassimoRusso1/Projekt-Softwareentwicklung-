@@ -24,13 +24,12 @@ printf("Enter your selection: ");
     switch(input){
 
     case 1:
-        printf("The Developers of this Programm are:\n ***********************\n");
+        printf("The Developers of this Programm are:\n");
         developer massimo, nico;
         name_init(&massimo, "Massimo Russo","MassmioRusso1");
         name_init(&nico, "Nico Rast","tsarocin");
         name_print(&massimo);
         name_print(&nico);
-        printf("***********************\n");
     break;
 
     case 2:
