@@ -7,3 +7,8 @@
 0	1204	1679431701013714210	CMakeFiles/program.dir/src/developer.c.o	95d1a7a7ca1848c
 3	1209	1679431701017714238	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
 1210	1443	1679431701253715916	program	705164d8dd036d5f
+0	49	1679432392762597879	CMakeFiles/program.dir/src/developer.c.o	95d1a7a7ca1848c
+0	64	1679432392778597991	CMakeFiles/program.dir/src/main.c.o	f281e4dc8fb69393
+1	75	1679432392786598047	CMakeFiles/program.dir/src/developer_group.c.o	59e66d714efe3976
+75	94	1679432392806598188	program	705164d8dd036d5f
+0	48	1679432450378999232	CMakeFiles/program.dir/src/main.c.o	f281e4dc8fb69393
