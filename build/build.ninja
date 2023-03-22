@@ -41,50 +41,76 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /workspaces/Projekt-Softwareentwicklung-/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target program
+# Object build statements for STATIC_LIBRARY target lib
 
 
 #############################################
-# Order-only phony target for program
+# Order-only phony target for lib
 
-build cmake_object_order_depends_target_program: phony || CMakeFiles/program.dir
+build cmake_object_order_depends_target_lib: phony || CMakeFiles/lib.dir
 
-build CMakeFiles/program.dir/src/main.c.o: C_COMPILER__program_unscanned_Debug /workspaces/Projekt-Softwareentwicklung-/src/main.c || cmake_object_order_depends_target_program
-  DEP_FILE = CMakeFiles/program.dir/src/main.c.o.d
+build CMakeFiles/lib.dir/src/developer.c.o: C_COMPILER__lib_unscanned_Debug /workspaces/Projekt-Softwareentwicklung-/src/developer.c || cmake_object_order_depends_target_lib
+  DEP_FILE = CMakeFiles/lib.dir/src/developer.c.o.d
   FLAGS = -g -std=gnu11 -Wall -Wextra -Werror -pedantic -O0
   INCLUDES = -I/workspaces/Projekt-Softwareentwicklung-/include
-  OBJECT_DIR = CMakeFiles/program.dir
-  OBJECT_FILE_DIR = CMakeFiles/program.dir/src
+  OBJECT_DIR = CMakeFiles/lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/lib.dir/src
 
-build CMakeFiles/program.dir/src/developer.c.o: C_COMPILER__program_unscanned_Debug /workspaces/Projekt-Softwareentwicklung-/src/developer.c || cmake_object_order_depends_target_program
-  DEP_FILE = CMakeFiles/program.dir/src/developer.c.o.d
+build CMakeFiles/lib.dir/src/developer_group.c.o: C_COMPILER__lib_unscanned_Debug /workspaces/Projekt-Softwareentwicklung-/src/developer_group.c || cmake_object_order_depends_target_lib
+  DEP_FILE = CMakeFiles/lib.dir/src/developer_group.c.o.d
   FLAGS = -g -std=gnu11 -Wall -Wextra -Werror -pedantic -O0
   INCLUDES = -I/workspaces/Projekt-Softwareentwicklung-/include
-  OBJECT_DIR = CMakeFiles/program.dir
-  OBJECT_FILE_DIR = CMakeFiles/program.dir/src
-
-build CMakeFiles/program.dir/src/developer_group.c.o: C_COMPILER__program_unscanned_Debug /workspaces/Projekt-Softwareentwicklung-/src/developer_group.c || cmake_object_order_depends_target_program
-  DEP_FILE = CMakeFiles/program.dir/src/developer_group.c.o.d
-  FLAGS = -g -std=gnu11 -Wall -Wextra -Werror -pedantic -O0
-  INCLUDES = -I/workspaces/Projekt-Softwareentwicklung-/include
-  OBJECT_DIR = CMakeFiles/program.dir
-  OBJECT_FILE_DIR = CMakeFiles/program.dir/src
+  OBJECT_DIR = CMakeFiles/lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/lib.dir/src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target program
+# Link build statements for STATIC_LIBRARY target lib
 
 
 #############################################
-# Link the executable program
+# Link the static library liblib.a
 
-build program: C_EXECUTABLE_LINKER__program_Debug CMakeFiles/program.dir/src/main.c.o CMakeFiles/program.dir/src/developer.c.o CMakeFiles/program.dir/src/developer_group.c.o
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/program.dir
+build liblib.a: C_STATIC_LIBRARY_LINKER__lib_Debug CMakeFiles/lib.dir/src/developer.c.o CMakeFiles/lib.dir/src/developer_group.c.o
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lib.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = program
-  TARGET_PDB = program.dbg
+  TARGET_FILE = liblib.a
+  TARGET_PDB = lib.a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target programm
+
+
+#############################################
+# Order-only phony target for programm
+
+build cmake_object_order_depends_target_programm: phony || cmake_object_order_depends_target_lib
+
+build CMakeFiles/programm.dir/src/main.c.o: C_COMPILER__programm_unscanned_Debug /workspaces/Projekt-Softwareentwicklung-/src/main.c || cmake_object_order_depends_target_programm
+  DEP_FILE = CMakeFiles/programm.dir/src/main.c.o.d
+  FLAGS = -g -std=gnu11 -Wall -Wextra -Werror -pedantic -O0
+  INCLUDES = -I/workspaces/Projekt-Softwareentwicklung-/include
+  OBJECT_DIR = CMakeFiles/programm.dir
+  OBJECT_FILE_DIR = CMakeFiles/programm.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target programm
+
+
+#############################################
+# Link the executable programm
+
+build programm: C_EXECUTABLE_LINKER__programm_Debug CMakeFiles/programm.dir/src/main.c.o | liblib.a || liblib.a
+  FLAGS = -g
+  LINK_LIBRARIES = liblib.a
+  OBJECT_DIR = CMakeFiles/programm.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = programm
+  TARGET_PDB = programm.dbg
 
 
 #############################################
@@ -112,6 +138,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build lib: phony liblib.a
+
 # =============================================================================
 # Folder targets.
 
@@ -120,7 +148,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /workspaces/Projekt-Softwareentwicklung-/build
 
-build all: phony program
+build all: phony liblib.a programm
 
 # =============================================================================
 # Built-in targets

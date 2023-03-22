@@ -4,8 +4,8 @@ project(program VERSION 1.0 LANGUAGES C)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED True)
 add_compile_options(-Wall -Wextra -Werror -pedantic -O0)
-add_executable(program
-                        src/main.c
-                        src/developer.c
-                        src/developer_group.c)
-target_include_directories(program  PRIVATE include)
+add_library(lib STATIC src/developer.c src/developer_group.c)
+target_include_directories(lib PRIVATE include)
+add_executable(programm src/main.c)
+target_include_directories(programm  PRIVATE include)
+target_link_libraries(programm PRIVATE lib)
