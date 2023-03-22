@@ -17,7 +17,7 @@ int main(void)
         printf("Print Group \t\t[3]\n");
         printf("Exit \t\t\t[4]\n");
         printf("========================\033[0m\n");
-        printf("Enter your selection: ");
+        printf("Enter your selection: \n");
 
         scanf("%d", &input);
 
