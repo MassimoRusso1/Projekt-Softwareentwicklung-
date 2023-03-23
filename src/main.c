@@ -54,7 +54,7 @@ int main(void)                                                                  
             break;
 
         default:                                                                                //default case
-            printf("That was not a valid input!");                                              //if there is not a number between 1 and 4, the programm prints an error message
+            printf("That was not a valid input!\n");                                              //if there is not a number between 1 and 4, the programm prints an error message
             break;
         }
     }
