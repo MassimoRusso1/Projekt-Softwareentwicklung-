@@ -8,3 +8,8 @@
 0	29	1679604263469594850	CMakeFiles/programm.dir/src/main.c.o	b9b3e0731c0e4c4
 0	255	1679602600340486653	CMakeFiles/lib.dir/src/developer_group.c.o	c43eccca91a29243
 29	49	1679604263489594813	programm	3e759ee674f7afd4
+0	33	1679682258566062337	CMakeFiles/lib.dir/src/developer_group.c.o	c43eccca91a29243
+0	42	1679682258574062415	CMakeFiles/programm.dir/src/main.c.o	b9b3e0731c0e4c4
+0	43	1679682258574062415	CMakeFiles/lib.dir/src/developer.c.o	70c66126067d947e
+43	70	1679682258602062685	liblib.a	b8787d8b9e282cbc
+70	90	1679682258622062878	programm	3e759ee674f7afd4
